@@ -5,6 +5,7 @@ import Contact from './components/Contact';
 import Home from './components/Home';
 import About from './components/About';
 import Projects from './components/Projects';
+import Skills from './components/SkillSet';
 
 function App() {
     return (
@@ -12,10 +13,11 @@ function App() {
             <div> Meghana Masadi Portfolio</div>
             <div>
                 <Navbar />
-                <Contact />
                 <Home />
                 <About />
                 <Projects />
+                <Skills />
+                <Contact />
             </div>
         </>
     );
